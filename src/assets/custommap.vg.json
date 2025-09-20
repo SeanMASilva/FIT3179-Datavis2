@@ -2,14 +2,28 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "width":600,
   "height":600,
-  "projection": {"type":"azimuthalEqualArea"},
+  "projection": {"type":"azimuthalEqualArea", "rotate":[-135,38,0]},
   "layer": [
     {
       "data": {
-        "url": "./src/assets/baseWorld.json",
+        "url": "https://raw.githubusercontent.com/SeanMASilva/FIT3179-Datavis2/refs/heads/main/src/assets/baseWorld.json",
         "format": {"type": "topojson", "feature": "ne_50m_land"}
       },
-      "mark": {"type": "geoshape", "fill": "lightgray", "stroke": "white"}
+      "mark": {"type": "geoshape", "fill": "lightgrey", "stroke": "white"}
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/SeanMASilva/FIT3179-Datavis2/refs/heads/main/src/assets/baseWorld.json",
+        "format": {"type": "topojson", "feature": "ne_50m_ocean"}
+      },
+      "mark": {"type": "geoshape", "fill": "lightblue"}
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/SeanMASilva/FIT3179-Datavis2/refs/heads/main/src/assets/baseWorld.json",
+        "format": {"type": "topojson", "feature": "ne_50m_admin_1_states_provinces_lines"}
+      },
+      "mark": {"type": "geoshape", "fill":"","stroke":"white"}
     }
   ]
 }

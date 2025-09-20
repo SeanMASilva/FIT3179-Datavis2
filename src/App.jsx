@@ -3,7 +3,7 @@ import './App.css'
 import basicGraph from './assets/data.vg.json'
 import Chart from './Chart'
 
-import customGraph from './assets/baseWorld.json'
+import customGraph from './assets/custommap.vg.json'
 function App() {
 
   return (
