@@ -1,74 +1,74 @@
 State,Decade,Fires,HectaresBurnt,PercentBurnt
-ACT (Australian Capital Territory),1930,5,44628,0.1893
-ACT (Australian Capital Territory),1940,2,110,0.0005
-ACT (Australian Capital Territory),1950,3,10548,0.0447
-ACT (Australian Capital Territory),1960,8,385,0.0016
-ACT (Australian Capital Territory),1970,53,24083,0.1021
-ACT (Australian Capital Territory),1980,57,68949,0.2924
-ACT (Australian Capital Territory),1990,29,1956,0.0083
-ACT (Australian Capital Territory),2000,19,265626,1.1265
-ACT (Australian Capital Territory),2010,6,332,0.0014
-ACT (Australian Capital Territory),2020,2,88344,0.3747
-NSW (New South Wales),0,6672,16303772,0.2035
-NSW (New South Wales),1890,11,8525,0.0001
-NSW (New South Wales),1940,1,35,0.0000
-NSW (New South Wales),1950,66,38219,0.0005
-NSW (New South Wales),1960,291,300154,0.0037
-NSW (New South Wales),1970,306,1681300,0.0210
-NSW (New South Wales),1980,473,328857,0.0041
-NSW (New South Wales),1990,716,662758,0.0083
-NSW (New South Wales),2000,2406,3533126,0.0441
-NSW (New South Wales),2010,1266,5373018,0.0671
-NSW (New South Wales),2020,95,280515,0.0035
-QLD (Queensland),0,31,294872,0.0017
-QLD (Queensland),1930,8,7688,0.0000
-QLD (Queensland),1940,87,293748,0.0017
-QLD (Queensland),1950,84,329963,0.0019
-QLD (Queensland),1960,113,464113,0.0027
-QLD (Queensland),1970,141,339889,0.0020
-QLD (Queensland),1980,312,491893,0.0028
-QLD (Queensland),1990,470,1637439,0.0095
-QLD (Queensland),2000,1601,16117133,0.0932
-QLD (Queensland),2010,2097,24008102,0.1388
-QLD (Queensland),2020,676,5924377,0.0343
-SA (South Australia),0,1,30,0.0000
-SA (South Australia),1930,4,27093,0.0003
-SA (South Australia),1940,3,7500,0.0001
-SA (South Australia),1950,278,546011,0.0055
-SA (South Australia),1960,153,223999,0.0023
-SA (South Australia),1970,521,9969181,0.1013
-SA (South Australia),1980,662,45506941,0.4623
-SA (South Australia),1990,306,1781527,0.0181
-SA (South Australia),2000,638,8787077,0.0893
-SA (South Australia),2010,708,20774232,0.2111
-SA (South Australia),2020,108,86821,0.0009
-TAS (Tasmania),1960,5,199973,0.0292
-TAS (Tasmania),1970,7,2045,0.0003
-TAS (Tasmania),1980,284,280453,0.0410
-TAS (Tasmania),1990,355,129290,0.0189
-TAS (Tasmania),2000,471,462683,0.0676
-TAS (Tasmania),2010,478,599734,0.0877
-TAS (Tasmania),2020,26,3825,0.0006
-VIC (Victoria),0,18,9037,0.0004
-VIC (Victoria),1920,2,21101,0.0009
-VIC (Victoria),1930,56,3438051,0.1512
-VIC (Victoria),1940,39,104793,0.0046
-VIC (Victoria),1950,104,939453,0.0413
-VIC (Victoria),1960,610,1334432,0.0587
-VIC (Victoria),1970,361,716642,0.0315
-VIC (Victoria),1980,729,1836733,0.0808
-VIC (Victoria),1990,540,339087,0.0149
-VIC (Victoria),2000,698,13475884,0.5925
-VIC (Victoria),2010,966,5147704,0.2263
-VIC (Victoria),2020,207,973499,0.0428
-WA (Western Australia),0,72,602403,0.0024
-WA (Western Australia),1930,1,12,0.0000
-WA (Western Australia),1940,10,263943,0.0010
-WA (Western Australia),1950,10,146616,0.0006
-WA (Western Australia),1960,1,362,0.0000
-WA (Western Australia),1970,12,229878,0.0009
-WA (Western Australia),1980,45,182404,0.0007
-WA (Western Australia),1990,219,2552297,0.0101
-WA (Western Australia),2000,1179,4416047,0.0175
-WA (Western Australia),2010,2075,97524527,0.3859
-WA (Western Australia),2020,661,26042651,0.1031
+Australian Capital Territory,1930,5,44628,0.1893
+Australian Capital Territory,1940,2,110,0.0005
+Australian Capital Territory,1950,3,10548,0.0447
+Australian Capital Territory,1960,8,385,0.0016
+Australian Capital Territory,1970,53,24083,0.1021
+Australian Capital Territory,1980,57,68949,0.2924
+Australian Capital Territory,1990,29,1956,0.0083
+Australian Capital Territory,2000,19,265626,1.1265
+Australian Capital Territory,2010,6,332,0.0014
+Australian Capital Territory,2020,2,88344,0.3747
+New South Wales,0,6672,16303772,0.2035
+New South Wales,1890,11,8525,0.0001
+New South Wales,1940,1,35,0.0000
+New South Wales,1950,66,38219,0.0005
+New South Wales,1960,291,300154,0.0037
+New South Wales,1970,306,1681300,0.0210
+New South Wales,1980,473,328857,0.0041
+New South Wales,1990,716,662758,0.0083
+New South Wales,2000,2406,3533126,0.0441
+New South Wales,2010,1266,5373018,0.0671
+New South Wales,2020,95,280515,0.0035
+Queensland,0,31,294872,0.0017
+Queensland,1930,8,7688,0.0000
+Queensland,1940,87,293748,0.0017
+Queensland,1950,84,329963,0.0019
+Queensland,1960,113,464113,0.0027
+Queensland,1970,141,339889,0.0020
+Queensland,1980,312,491893,0.0028
+Queensland,1990,470,1637439,0.0095
+Queensland,2000,1601,16117133,0.0932
+Queensland,2010,2097,24008102,0.1388
+Queensland,2020,676,5924377,0.0343
+South Australia,0,1,30,0.0000
+South Australia,1930,4,27093,0.0003
+South Australia,1940,3,7500,0.0001
+South Australia,1950,278,546011,0.0055
+South Australia,1960,153,223999,0.0023
+South Australia,1970,521,9969181,0.1013
+South Australia,1980,662,45506941,0.4623
+South Australia,1990,306,1781527,0.0181
+South Australia,2000,638,8787077,0.0893
+South Australia,2010,708,20774232,0.2111
+South Australia,2020,108,86821,0.0009
+Tasmania,1960,5,199973,0.0292
+Tasmania,1970,7,2045,0.0003
+Tasmania,1980,284,280453,0.0410
+Tasmania,1990,355,129290,0.0189
+Tasmania,2000,471,462683,0.0676
+Tasmania,2010,478,599734,0.0877
+Tasmania,2020,26,3825,0.0006
+Victoria,0,18,9037,0.0004
+Victoria,1920,2,21101,0.0009
+Victoria,1930,56,3438051,0.1512
+Victoria,1940,39,104793,0.0046
+Victoria,1950,104,939453,0.0413
+Victoria,1960,610,1334432,0.0587
+Victoria,1970,361,716642,0.0315
+Victoria,1980,729,1836733,0.0808
+Victoria,1990,540,339087,0.0149
+Victoria,2000,698,13475884,0.5925
+Victoria,2010,966,5147704,0.2263
+Victoria,2020,207,973499,0.0428
+Western Australia,0,72,602403,0.0024
+Western Australia,1930,1,12,0.0000
+Western Australia,1940,10,263943,0.0010
+Western Australia,1950,10,146616,0.0006
+Western Australia,1960,1,362,0.0000
+Western Australia,1970,12,229878,0.0009
+Western Australia,1980,45,182404,0.0007
+Western Australia,1990,219,2552297,0.0101
+Western Australia,2000,1179,4416047,0.0175
+Western Australia,2010,2075,97524527,0.3859
+Western Australia,2020,661,26042651,0.1031
