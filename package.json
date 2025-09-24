@@ -12,6 +12,7 @@
   "dependencies": {
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
+    "topojson": "^3.0.2",
     "vega": "5",
     "vega-embed": "6",
     "vega-lite": "5.1"

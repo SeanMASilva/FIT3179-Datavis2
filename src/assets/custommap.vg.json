@@ -1,8 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width":600,
+  "width":800,
   "height":600,
-  "projection": {"type":"azimuthalEqualArea", "rotate":[-133.5,26,0], "scale": 900},
+  "projection": {"type":"azimuthalEqualArea", "rotate":[-133.5,20,0], "scale": 700},
   "layer": [
     {
       "data": {
@@ -25,12 +25,20 @@
       },
       "mark": {"type": "geoshape", "fill":"","stroke":"white"}
     },
+    
     {
       "data": {
-        "url": "https://raw.githubusercontent.com/SeanMASilva/FIT3179-Datavis2/refs/heads/main/src/assets/baseWorldLarger.json",
-        "format": {"type": "topojson", "feature": "ne_50m_graticules_10"}
+        "url": "https://raw.githubusercontent.com/SeanMASilva/FIT3179-Datavis2/refs/heads/main/src/assets/IDCKMSTM0SFiltered.csv"
       },
-      "mark": {"type": "geoshape", "fill":"","stroke":"#bbb"}
+      "mark": {"type": "circle"},
+      "encoding": {
+        "longitude": {"field":"LON", "type": "quantitative"},
+        "latitude": {"field":"LAT", "type": "quantitative"},
+        "size": {"field":"MAX_WIND_SPD", "type": "quantitative"}
+      },
+      "transform": [
+        {"filter": "datum.TM < \"2010\""}
+      ]
     }
   ]
 }
