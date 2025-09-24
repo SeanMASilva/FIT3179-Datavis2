@@ -22,7 +22,7 @@ const objs = filteredData.reduce((obj, row) => ({...obj, [row[11]]:mergeRow(row,
   "WA (Western Australia)" : {count:{}, area_ha:{},total_ha:252701300},
 })
 const newCsv = "State,Decade,Fires,HectaresBurnt,PercentBurnt\n" + Object.entries(objs).map(
-  ([state, obj1]) => Object.keys(obj1.count).map(
+  ([state, obj1]) => Object.keys(obj1.count).filter(decade => decade > 0).map(
     decade => [state.split(" ").slice(1).join(" ").slice(1, -1),decade,obj1.count[decade],obj1.area_ha[decade],(obj1.area_ha[decade]/obj1.total_ha).toFixed(4)].join(",")
   ).join("\n")
 ).join("\n")
