@@ -1,13 +1,14 @@
 State,Decade,Key,Fires,HectaresBurnt,PercentBurnt
-Australian Capital Territory,1930,Australian Capital Territory1930,5,44628,0.1893
-Australian Capital Territory,1940,Australian Capital Territory1940,2,110,0.0005
-Australian Capital Territory,1950,Australian Capital Territory1950,3,10548,0.0447
-Australian Capital Territory,1960,Australian Capital Territory1960,8,385,0.0016
-Australian Capital Territory,1970,Australian Capital Territory1970,53,24083,0.1021
-Australian Capital Territory,1980,Australian Capital Territory1980,57,68949,0.2924
-Australian Capital Territory,1990,Australian Capital Territory1990,29,1956,0.0083
-Australian Capital Territory,2000,Australian Capital Territory2000,19,265626,1.1265
-Australian Capital Territory,2010,Australian Capital Territory2010,8,88676,0.3761
+Australian Capital Territory,1920,Australian Capital Territory1920,2,85756,0.3637
+Australian Capital Territory,1930,Australian Capital Territory1930,9,49356,0.2093
+Australian Capital Territory,1940,Australian Capital Territory1940,6,3793,0.0161
+Australian Capital Territory,1950,Australian Capital Territory1950,9,14599,0.0619
+Australian Capital Territory,1960,Australian Capital Territory1960,9,431,0.0018
+Australian Capital Territory,1970,Australian Capital Territory1970,58,24584,0.1043
+Australian Capital Territory,1980,Australian Capital Territory1980,59,69084,0.2930
+Australian Capital Territory,1990,Australian Capital Territory1990,30,1983,0.0084
+Australian Capital Territory,2000,Australian Capital Territory2000,21,266993,1.1323
+Australian Capital Territory,2010,Australian Capital Territory2010,15,89007,0.3775
 New South Wales,1890,New South Wales1890,11,8525,0.0001
 New South Wales,1940,New South Wales1940,1,35,0.0000
 New South Wales,1950,New South Wales1950,66,38219,0.0005
@@ -35,28 +36,29 @@ South Australia,1980,South Australia1980,662,45506941,0.4623
 South Australia,1990,South Australia1990,306,1781527,0.0181
 South Australia,2000,South Australia2000,638,8787077,0.0893
 South Australia,2010,South Australia2010,816,20861053,0.2119
-Tasmania,1960,Tasmania1960,5,199973,0.0292
-Tasmania,1970,Tasmania1970,7,2045,0.0003
-Tasmania,1980,Tasmania1980,284,280453,0.0410
-Tasmania,1990,Tasmania1990,355,129290,0.0189
+Tasmania,1960,Tasmania1960,15,201107,0.0294
+Tasmania,1970,Tasmania1970,13,4454,0.0007
+Tasmania,1980,Tasmania1980,293,281967,0.0412
+Tasmania,1990,Tasmania1990,356,131773,0.0193
 Tasmania,2000,Tasmania2000,471,462683,0.0676
-Tasmania,2010,Tasmania2010,504,603559,0.0882
+Tasmania,2010,Tasmania2010,980,625205,0.0914
+Victoria,1900,Victoria1900,1,782,0.0000
 Victoria,1920,Victoria1920,2,21101,0.0009
 Victoria,1930,Victoria1930,56,3438051,0.1512
 Victoria,1940,Victoria1940,39,104793,0.0046
 Victoria,1950,Victoria1950,104,939453,0.0413
-Victoria,1960,Victoria1960,610,1334432,0.0587
-Victoria,1970,Victoria1970,361,716642,0.0315
-Victoria,1980,Victoria1980,729,1836733,0.0808
-Victoria,1990,Victoria1990,540,339087,0.0149
-Victoria,2000,Victoria2000,698,13475884,0.5925
-Victoria,2010,Victoria2010,1173,6121203,0.2691
-Western Australia,1930,Western Australia1930,1,12,0.0000
-Western Australia,1940,Western Australia1940,10,263943,0.0010
-Western Australia,1950,Western Australia1950,10,146616,0.0006
-Western Australia,1960,Western Australia1960,1,362,0.0000
-Western Australia,1970,Western Australia1970,12,229878,0.0009
-Western Australia,1980,Western Australia1980,45,182404,0.0007
-Western Australia,1990,Western Australia1990,219,2552297,0.0101
-Western Australia,2000,Western Australia2000,1179,4416047,0.0175
-Western Australia,2010,Western Australia2010,2736,123567178,0.4890
+Victoria,1960,Victoria1960,613,1335154,0.0587
+Victoria,1970,Victoria1970,383,719888,0.0317
+Victoria,1980,Victoria1980,852,1868648,0.0822
+Victoria,1990,Victoria1990,603,377056,0.0166
+Victoria,2000,Victoria2000,700,13481675,0.5927
+Victoria,2010,Victoria2010,1190,6137082,0.2698
+Western Australia,1930,Western Australia1930,329,82423,0.0003
+Western Australia,1940,Western Australia1940,1656,801532,0.0032
+Western Australia,1950,Western Australia1950,1446,801800,0.0032
+Western Australia,1960,Western Australia1960,1087,1512922,0.0060
+Western Australia,1970,Western Australia1970,1157,10231954,0.0405
+Western Australia,1980,Western Australia1980,3796,2553225,0.0101
+Western Australia,1990,Western Australia1990,8510,90691160,0.3589
+Western Australia,2000,Western Australia2000,15972,102517020,0.4057
+Western Australia,2010,Western Australia2010,14089,173024973,0.6847
