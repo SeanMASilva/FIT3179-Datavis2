@@ -1,0 +1,97 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width":800,
+  "height":480,
+  "projection": {"type":"azimuthalEqualArea", "rotate":[-133.5,26,0], "scale": 700},
+  "title":{
+    "text":"Map of Australia's Bushfires and Cyclones (floods to be added?)"
+  },
+  "params": [
+    {
+      "name": "decade",
+      "value": 2000,
+      "bind": {
+        "input": "range",
+        "min": 1930,
+        "max": 2010,
+        "step": 10,
+        "name": "Decade"
+      }
+    }
+  ],
+  "layer": [
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/SeanMASilva/FIT3179-Datavis2/refs/heads/main/src/assets/baseWorldLarger.json",
+        "format": {"type": "topojson", "feature": "ne_50m_land"}
+      },
+      "mark": {"type": "geoshape", "fill": "lightgrey", "stroke": "white"}
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/SeanMASilva/FIT3179-Datavis2/refs/heads/main/src/assets/baseWorldLarger.json",
+        "format": {"type": "topojson", "feature": "ne_50m_ocean"}
+      },
+      "mark": {"type": "geoshape", "fill": "lightblue"}
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/SeanMASilva/FIT3179-Datavis2/refs/heads/main/src/assets/baseWorldLarger.json",
+        "format": {"type": "topojson", "feature": "ne_50m_admin_1_states_provinces_lines"}
+      },
+      "mark": {"type": "geoshape", "fill":"","stroke":"white"}
+    },
+    
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/SeanMASilva/FIT3179-Datavis2/refs/heads/main/src/assets/baseWorldLarger.json",
+        "format": {"type": "topojson", "feature": "ne_50m_admin_1_states_provinces"}
+      },
+      "transform": [
+        {
+          "calculate": "datum.properties.name + decade",
+          "as": "lookupKey"
+        },
+        {
+          "lookup": "lookupKey",
+          "from":{
+            "data":{
+              "url":"https://raw.githubusercontent.com/SeanMASilva/FIT3179-Datavis2/refs/heads/main/src/assets/bushfireChoropleth.csv"
+            },
+            "key": "Key",
+            
+            "fields": ["State", "PercentBurnt", "HectaresBurnt"]
+          }
+        },
+        {
+          "filter":"datum.properties.name == 'Victoria' || datum.properties.name == 'New South Wales' || datum.properties.name == 'South Australia' || datum.properties.name == 'Western Australia' || datum.properties.name == 'Queensland' || datum.properties.name == 'Tasmania' || datum.properties.name == 'Northern Territory'" 
+        },
+        {
+          "calculate": "datum.PercentBurnt * 100",
+          "as": "PercentBurnt2"
+        }
+      ],
+      "mark":{"type": "geoshape"},
+      "encoding": {
+        "color": {
+          "field":"PercentBurnt2",
+          "type": "quantitative",
+          "scale":{"domain": [0, 60], "scheme":"yelloworangered"},
+          "title":"Percent of state area burnt"
+        },
+        "tooltip": [
+          {"field":"properties.name", "title":"State"},
+          {"field":"HectaresBurnt","title":"Hectares Burnt"},
+          {"field":"PercentBurnt2", "title":"Percent area burnt over 10 years", "format":".2f"}
+        ]
+      }
+    },
+    {
+      "data":{
+        "url": "https://raw.githubusercontent.com/SeanMASilva/FIT3179-Datavis2/refs/heads/main/src/assets/baseWorldLarger.json",
+        "format": {"type": "topojson", "feature": "ne_50m_graticules_10"}
+      },
+      "mark": {"type": "geoshape", "stroke":"grey", "fill":null, "opacity":0.3}
+    }
+  ]
+}

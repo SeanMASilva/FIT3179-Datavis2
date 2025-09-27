@@ -1,11 +1,14 @@
 import fs from "fs"
+import { key } from "vega"
 
 const data = fs.readFileSync("./src/assets/bushfiresraw.csv", "utf-8").split("\n").map(s => s.split(","))
 const filteredData = data.slice(1).filter(
   row => row[6] === "Bushfire" && row[9] > 9
 )
 const mergeRow = (row, obj) => {
-  const decade = ((row[3].split("/")[0] / 10) | 0) * 10
+  const decade_ = ((row[3].split("/")[0] / 10) | 0) * 10
+  const decade = decade_ === 2020 ? 2010 : decade_
+
   return ({
     count: {...obj.count, [decade]:(obj.count[decade] || 0) + 1},
     area_ha: {...obj.area_ha, [decade]: (obj.area_ha[decade] || 0) + +row[9]},
@@ -21,10 +24,11 @@ const objs = filteredData.reduce((obj, row) => ({...obj, [row[11]]:mergeRow(row,
   "VIC (Victoria)" : {count:{}, area_ha:{},total_ha:22744400},
   "WA (Western Australia)" : {count:{}, area_ha:{},total_ha:252701300},
 })
-const newCsv = "State,Decade,Fires,HectaresBurnt,PercentBurnt\n" + Object.entries(objs).map(
+const newCsv = "State,Decade,Key,Fires,HectaresBurnt,PercentBurnt\n" + Object.entries(objs).map(
   ([state, obj1]) => Object.keys(obj1.count).filter(decade => decade > 0).map(
-    decade => [state.split(" ").slice(1).join(" ").slice(1, -1),decade,obj1.count[decade],obj1.area_ha[decade],(obj1.area_ha[decade]/obj1.total_ha).toFixed(4)].join(",")
+    decade => [state.split(" ").slice(1).join(" ").slice(1, -1),decade, state.split(" ").slice(1).join(" ").slice(1, -1)+decade,obj1.count[decade],obj1.area_ha[decade],(obj1.area_ha[decade]/obj1.total_ha).toFixed(4)].join(",")
   ).join("\n")
 ).join("\n")
 // console.log(objs)
+// const changedKeys = Object.entries(objs).map(([key, value]) => ({...value, state: key.split(" ").slice(1).join(" ").slice(1, -1), }))
 fs.writeFileSync("./src/assets/bushfireChoropleth.csv", newCsv)
