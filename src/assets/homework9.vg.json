@@ -111,13 +111,14 @@
       ]
   
     },
-    {"layer": 
+    {
+      "width": 250,
+      "layer": 
       [
         {
           "data": {
             "name":"choropleth"
           },
-          "width": 250,
           "mark": {
             "type": "area",
             "color":"maroon"
