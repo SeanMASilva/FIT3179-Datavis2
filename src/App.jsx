@@ -11,7 +11,7 @@ function App() {
     <>
       <h1>Australia's Ravaged States</h1>
       {/* <p>Map of Australian natural diasters</p> */}
-      <Chart spec={homework9 }/>
+      <Chart spec={homework9 } style={{width:"100%"}}/>
       {/* <Chart spec={basicGraph} /> */}
     </>
   )
