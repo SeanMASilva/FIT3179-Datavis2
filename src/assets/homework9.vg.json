@@ -117,7 +117,7 @@
           "data": {
             "name":"choropleth"
           },
-          
+          "width": 250,
           "mark": {
             "type": "area",
             "color":"maroon"
@@ -126,26 +126,48 @@
             {"aggregate": [{"as": "sumHB", "field": "HectaresBurnt", "op": "sum"}], "groupby": ["Decade"]}
           ],
           "encoding": {
-            "x": {"field": "Decade", "type": "ordinal", "title":"Decade"},
-            "y": {"field": "sumHB", "type": "quantitative", "title":"Hectares"},
-            "color":{
-              
-            }
+            "x": {
+              "field": "Decade", 
+              "type": "ordinal", 
+              "title":"Decade", 
+              "scale":{
+                "domain":["1930", "1940", "1950", "1960", "1970", "1980", "1990", "2000", "2010"]
+                }
+              },
+            "y": {"field": "sumHB", "type": "quantitative", "title":"Hectares"}
           },
           "title":"Total area of Australia burnt each decade"
         },
         {
-          "data":{"values":[{"x":"1950", "y":160000000, "text":"The destruction of bushfires is greatly;increasing due to climate change"}]},
+          "data":{"values":[{"x":"1960", "y":160000000, "text":"The destruction of bushfires; is greatly increasing due; to climate change"}]},
           "transform": [
             {"calculate": "split(datum.text, ';')", "as":"text_wrap"}
           ],
           "mark":{
-            "type": "text"
+            "type": "text" 
           },
           "encoding": {
             "x":{"field":"x", "type": "ordinal"},
             "y":{"field":"y", "type": "quantitative"},
             "text":{"field":"text_wrap"}
+          }
+        },
+        {
+          "data":{"name": "choropleth"},
+          "transform": [
+            {"aggregate": [{"as": "sumHB", "field": "HectaresBurnt", "op": "sum"}], "groupby": ["Decade"]},
+            {"filter": "datum.Decade == decade"}
+          ],
+          "mark":{
+            "type": "point",
+            "color":"yellow",
+            "stroke":"black",
+            "fill":"white"
+          },
+          "encoding": {
+            
+            "x":{"field":"Decade", "type": "ordinal"},
+            "y":{"field":"sumHB", "type": "quantitative"}
           }
         }
       ]
