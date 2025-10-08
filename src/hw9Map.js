@@ -5,7 +5,34 @@ const cyclone = (file) => {
       "data": {
         "url": "https://raw.githubusercontent.com/SeanMASilva/FIT3179-Datavis2/refs/heads/main/src/assets/" + file
       },
-      "mark": {"type": "trail", "fill":"white", "stroke":"lightgreen", "strokeOpacity":0.5},
+      "layer": [
+        {
+          "mark": {"type": "trail", "fill":"white", "stroke":"lightgreen", "strokeOpacity":0.5},
+          "encoding": {
+            "size": {
+              "field":"pressure", 
+              "type": "quantitative", 
+              "scale": {
+                "domain":[1010, 900]
+              },
+              legend:{"title": "Eye pressure (kpa)"},
+            },
+          }
+        },
+        {
+          "height": 100,
+          "transform": [
+            {"sort":[{"field": "datetime", "order":"descending"}], "window": [{"op":"rank", "as": "ranking"}]},
+            {"filter": "datum.ranking == 1"},
+          ],
+          "mark": {
+            "type": "text",
+            "baseline":"middle",
+            size:8
+          },
+          "encoding": {"text":{"field":"name"}}
+        }
+      ],
       "transform": [
         {"filter": "datum.lat"},
         {"filter": "datum.year >= decade & datum.year < (decade + 10)"}
@@ -14,14 +41,7 @@ const cyclone = (file) => {
         "latitude": {"field":"lat", "type": "quantitative"},
         "longitude": {"field":"lon", "type": "quantitative"},
         "order": {"field":"datetime", "type": "temporal"},
-        "size": {
-          "field":"pressure", 
-          "type": "quantitative", 
-          "scale": {
-            "domain":[1010, 900]
-          },
-          legend:{"title": "Eye pressure (kpa)"},
-        },
+        
         "tooltip": [
           {"field":"name", title:"Cylcone Name"},
           {field: "year", title:"Year"},

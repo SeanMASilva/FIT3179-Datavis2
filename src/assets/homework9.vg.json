@@ -121,7 +121,8 @@
           },
           "mark": {
             "type": "area",
-            "color":"maroon"
+            "color":"maroon",
+            "tooltip":true
           },
           "transform": [
             {"aggregate": [{"as": "sumHB", "field": "HectaresBurnt", "op": "sum"}], "groupby": ["Decade"]}
