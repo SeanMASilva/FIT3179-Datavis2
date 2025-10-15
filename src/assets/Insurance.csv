@@ -1,0 +1,257 @@
+﻿Year,Type,NormalisedLoss,Name,State
+2020,Hailstorm,502766415,Rockhampton Hail,QLD
+2003,Bushfire,839446512,Canberra Bushfire,ACT
+1998,Flooding,231878374,Katherine Floods,NT
+1999,Hailstorm,5574498958,Eastern Sydney Hailstorm,NSW
+1989,Earthquake,4244407700,Newcastle CDB Earthquake,NSW
+1999,Cyclone,134433161,Cyclone Vance,NT
+2010,Storm,1344798983,Perth Storm,WA
+2011,Flooding,2075324768,Brisbane Flooding,QLD
+1988,Flooding,73752449,Flood,NT
+1983,Bushfire,1761595800,Ash Wednesday Bushfire,VIC
+1983,Bushfire,582725520,Ash Wednesday Bushfire,SA
+1984,Cyclone,58176043,Cyclone KATHY,NT
+2022,Flooding,4827440647,SE Queensland and NSW Floods,QLD NSW
+2011,Cyclone,1478641606,Cylone Yasi,QLD
+2009,Bushfire,1757793316,Black Saturday Bushfire,VIC
+2014,Hailstorm,1535440024,Brisbane Hailstorm,QLD
+2007,East Coast Low,2197387281,East Coast Low,NSW
+2010,Storm,1625980165,Melbourne Storm,VIC
+1990,Hailstorm,1681692745,Northern Sydney Hailstorm,NSW
+2018,Cyclone,61919384,Cyclone Marcus,NT
+2019,Flooding,1267963959,FNQ Monsoonal Flood,QLD
+2013,Cyclone,1130943627,QLD Flooding Ex Cyclone Oswald,QLD
+2015,Cyclone,51522673,Severe Tropical Cyclone Lam,NT
+1997,Cyclone,705114611,Cyclone Justin,QLD
+1985,Bushfire,854346634,Victorian Alpine Bushfires,VIC
+2020,Hailstorm,1056074599,Halloween Hail,QLD
+2013,Bushfire,103947348,Tasman Peninsula Bushfires,TAS
+2018,Flooding,99588880,Hobart Floods,TAS
+2011,Hailstorm,987926516,Melbourne Xmas Day Hailstorm,VIC
+1991,Storm,1044941850,Sydney Region Storms,NSW
+2018,Hailstorm,1357939813,NSW Hailstorm,NSW
+2006,Cyclone,633493595,Cyclone Larry,QLD
+2017,Cyclone,1781599484,Cyclone Debbie,NSW QLD
+2015,East Coast Low,1059849563,East Coast Low,NSW
+2008,Flooding,575424323,Mackay Flood ,QLD
+2021,Cyclone,364687074,TC Seroja,WA
+1984,Flooding,712680044,Sydney Floods,NSW
+2011,Storm,712333752,Melbourne Severe Storm,VIC
+2015,Cyclone,573653503,Severe Tropical Cyclone Marcia,QLD
+2015,Bushfire,185205642,Pinery Bushfires,SA
+2019,Bushfire,2319164486,"2019/20 Bushfires (NSW,QLD,SA,VIC)",NSW QLD SA VIC
+1991,Hailstorm,152013261,Adelaide Hailstorm,SA
+1994,Storm,332842129,QLD Bushfires,QLD
+2019,Hailstorm,498300091,November 17 Hailstorm (SEQ),QLD
+2010,Cyclone,427751031,Cyclone TASHA,QLD
+1998,Cyclone,324043561,Cyclone SID,QLD
+1992,Hailstorm,564712366,Western Sydney Hailstorm,NSW
+2021,Storm,832345866,SA Vic Severe Storms,SA VIC TAS
+2000,Flooding,322191702,"Flood, Storm",QLD
+2008,Storm,386107989,Queensland Storms (CAT086),QLD
+1998,Storm,296636772,Brisbane Storms,QLD
+2007,Hailstorm,586787347,Blacktown Hailstorm,NSW
+2020,Hailstorm,1681889372,January Hailstorms,ACT NSW QLD VIC
+2015,Flooding,387405291,SEQ Extreme Weather,QLD
+1996,Cyclone,253180305,Cyclone ETHEL,QLD
+2005,Storm,153661523,Storm,WA
+1988,Cyclone,113100233,Cyclone Herbie,WA
+2011,Flooding,304675232,Brisbane Flooding,QLD
+1988,Storm,96436632,Storm,WA
+2015,Hailstorm,470819649,Anzac Day Sydney Hailstorm,NSW
+2017,Storm,378000000,Victorian Severe Weather 19 December,VIC
+1995,Storm,194123267,SEQ Hailstorms,QLD
+1996,Hailstorm,348433444,Armidale Hailstorm,NSW
+2020,Flooding,973837676,South East Coast Storms & Flooding,NSW QLD VIC
+2003,Storm,234582930,Melbourne Severe Storms,VIC
+1986,Storm,66449713,Adelaide Storm,SA
+1990,Cyclone,138069557,Cyclone Joy,QLD
+1984,Bushfire,255418097,NSW Bushfires,NSW
+2021,Storm,307835383,Severe Weather & Flooding,VIC
+2005,Flooding,72261747,Gawler River Flood,SA
+2021,Flooding,617532295,Extreme Weather Event,NSW QLD
+2017,Hailstorm,328000000,Sydney Hailstorms,NSW
+2015,Bushfire,69616414,Sampsons Flat Bushfire,SA
+2016,Hailstorm,621470779,November Hailstorm,SA VIC NSW
+1986,Hailstorm,217121743,Hail,NSW
+2014,Bushfire,97900802,Perth Hills Bushfire,WA
+1988,Flooding,215191679,Noerthern Rivers Flooding,NSW
+2005,Bushfire,57418905,Bushfire,SA
+2021,Bushfire,98557284,Perth Hills Bushfire,WA
+2011,Storm,241743627,WA Storms,NSW
+2011,Flooding,183366911,Rural Victoria Flooding,VIC
+2001,Storm,115585083,"Flood, Storm",QLD
+1995,Cyclone,55021724,Cyclone Bobby,WA
+1991,Flooding,137448849,Ballarat Flooding,VIC
+1982,,121638807,Melbourne Gusts,VIC
+2005,Storm,402020843,Southerns States Severe Weather,VIC SA NSW
+2012,Flooding,137172982,South West QLD Flood Event,QLD
+2013,Bushfire,217413271,Bule Mountains Bushfires,NSW
+2015,Tornado,220291454,Tornado Kurnell,NSW
+2010,Flooding,65321069,Flooding Gascoyne River,WA
+1989,Hailstorm,122973900,Ballarat Hailstorm,VIC
+2012,Flooding,159179983,VIC Flood Event,VIC
+1996,Hailstorm,172628588,Singelton Hailstorm,NSW
+2016,Bushfire,70579607,Yarloop Bushfires,WA
+1990,Cyclone,238769416,Cyclone Nancy,NSW QLD
+2011,Bushfire,63996314,Margaret River Bushfires,WA
+1998,Storm,91154231,Brisbane Storms,QLD
+2015,Cyclone,67007104,Cyclone Olwyn,WA
+1989,Storm,113759224,Melbourne Storms,VIC
+1994,Earthquake,156053288,Hunter Valley 5.4 Earthquake,NSW
+2001,Bushfire,166968846,Bushfire,NSW
+1997,Storm,155726457,Sydney Storms,NSW
+2008,Flooding,104138162,South West Queensland Floods ,QLD
+2005,Flooding,95991694,"Flood, Storm",QLD
+1987,Flooding,100852858,Melbourne Flooding,VIC
+2005,Storm,92385228,Hail,QLD
+2013,Cyclone,5632014,Cyclone Alessia,NT
+2016,Flooding,431566695,East Coast Low,NSW QLD VIC
+1983,Bushfire,117230194,Bushfire Ash Wednesday,NSW
+1996,Storm,132028884,Coff Harbour Storm,NSW
+1994,Storm,127668342,Blue Mountains Severe Weather,NSW
+2012,Flooding,149197371,NSW Flooding Event,NSW
+1999,Storm,129987154,Illawarra Storm,NSW
+2005,Storm,124034541,Severe Storms,QLD WA NT
+2015,Bushfire,120988423,Great Ocean Rd Bushfires,VIC
+2007,Hailstorm,135008911,Lismore Hailstorm,NSW
+1988,Flooding,82881500,"Flood, Storm",VIC
+2013,Cyclone,139906160,NSW Flooding Ex Cyclone Oswald,NSW
+2011,Bushfire,43015277,WA Bushfires,WA
+2001,Flooding,118024192,North Coast NSW Floods and Storms,NSW
+2021,Earthquake,116627116,Mansfield Earthquake,VIC
+1987,Storm,25772086,East Perth Storm,WA
+1996,Flooding,154318866,SEQ and Northern Rivers Flooding,QLD NSW
+2004,Storm,60520940,SEQ Severe Storms,QLD
+2004,Cyclone,60505194,Cyclone GRACE,QLD
+2010,Earthquake,35612345,Kalgoorlie Boulder 5.0 Earthquake,WA
+2008,Storm,110241050,Windstorm,SA TAS VIC
+1993,Flooding,64428501,Flood,VIC
+2009,East Coast Low,59940538,East Coast Low,QLD
+1990,Flooding,118155407,Northern NSw and SW QLD Flooding,NSW QLD
+2018,Hailstorm,63215338,Gympie Region Hailstorm,QLD
+2001,Storm,80667832,Casino Severe Storm Event,NSW
+1991,Storm,72767538,Severe Storms Eden Monaro,NSW
+2010,Flooding,53261856,West QLD flooding,QLD
+2007,Bushfire,17952654,Kangaroo Island Bushfire,SA
+2004,Cyclone,22239503,Cyclone FAY,WA
+2006,Hailstorm,75720778,Hunter Valley Hailstorm,NSW
+2001,Storm,72534998,Storm,NSW
+2001,Tornado,72246158,"Storm, Tornado",NSW
+2000,Cyclone,37883862,Cyclone Steve,QLD
+1991,Bushfire,61214351,Central Coast Bushfires,NSW
+1991,Hailstorm,45251531,Orbost Hailstorm,VIC
+1990,Storm,58214031,Sydney Storms,NSW
+2008,Tornado,21724412,Tornado Southern Perth,WA
+1997,Bushfire,45335733,Victorian Bushfires,VIC
+1996,Storm,56824445,Storm,NSW
+1990,Hailstorm,52717641,Sydney Hailstorms,NSW
+2004,Storm,57213066,Casino Severe Weather,NSW
+1990,Hailstorm,49416509,Dubbo Hailstorms,NSW
+1998,Storm,53299486,Hunter Valley Storms,NSW
+2002,Bushfire,54957304,Southern Sydney Bushfire,NSW
+2005,Hailstorm,16472837,Lake grace Hailstorm,WA
+1995,Storm,49813888,Hunter Valley Severe Storms,NSW
+2007,Cyclone,17171973,Cyclone George,WA
+2005,Storm,31276458,Hail,QLD
+1997,Storm,48990647,SE NSW Severe Storms,NSW
+1999,Flooding,35795703,Melbourne Flooding,VIC
+2009,Flooding,53851899,NSW Coastal Flooding,NSW
+1990,Other,44295278,Unrecorded,NSW
+2007,Flooding,38384903,Gippsland Flooding,VIC
+1987,Bushfire,40425399,Southern NSw Bushfires,NSW
+2005,East Coast Low,47635249,East Coast Low,NSW
+1999,Flooding,13141829,Flood,WA
+1998,Storm,44085251,Sydney Storms,NSW
+2002,Storm,45008993,Sydney Region Severe Storm,NSW
+2010,Cyclone,15680639,Cyclone ULUI,WA
+2015,Bushfire,17197514,Esperance Bushfires,WA
+2006,Bushfire,33602225,Victorian Bushfires,VIC
+1996,East Coast Low,38931614,East Coast Low,NSw
+2001,Storm,39284641,Dubbo Severe Storm Event,NSW
+2009,Flooding,25308635,Floods,QLD
+1998,Storm,36737709,Sydney Storms,NSW
+2018,Bushfire,82489235,Tathra Bushfires,NSW VIC
+1998,Storm,35677492,Nyngan Storm,NSW
+1996,Storm,33906226,Hunter and New England Storms,NSW
+2019,Bushfire,35429104,Bunyip Bushfires,VIC
+1999,Cyclone,18692178,Cyclone Rona,QLD
+2013,Bushfire,39169402,Warumbungle Bushfires,NSW
+2002,Storm,34288222,Northern Rivers Severe Storm,NSW
+2014,Cyclone,24556116,Cyclone Ita,QLD
+1998,Storm,32791170,Storm,NSW
+2006,Tornado,10234024,Tornado Leschenault,WA
+2001,Storm,31468091,Sydney Severe Storm Event,NSW
+2016,Bushfire,2349389,Tasmania Wide Bushfires,TAS
+2017,Bushfire,34243907,NSW Bushfires,NSW
+2003,East Coast Low,48726589,East Coast Low,TAS VIC NSW
+1986,Earthquake,5793445,Marryat Creek 5.9 Earthquake,WA
+2016,Cyclone,9495165,Cyclone STAN,WA
+2009,Cyclone,15935151,Cyclone HAMISH,QLD
+2012,Cyclone,8923252,Cyclone Lua,WA
+1996,Cyclone,6276997,Cyclone Olivia,WA
+2014,Bushfire,20753550,Grampians Bushfire,VIC
+2018,Flooding,16800000,North Queensland Floods,QLD
+2002,Cyclone,6360356,Cyclone Chris,WA
+2009,Bushfire,7286998,Toodyay Bushfires,WA
+2007,Tornado,672490,Tornado Kakadu,NT
+2008,Flooding,21221137,Northern Rivers Flood,NSW
+2016,Storm,4778936,SA Severe Windstorm,SA
+2014,Cyclone,13019565,Cyclone Dylan,QLD
+2003,Bushfire,31442075,Alpine Bushfires,VIC NSW
+2016,Storm,20870661,NSW Severe Storms,NSW
+1997,Storm,15734579,Gratfon Storm,NSW
+2013,Cyclone,6217498,Cyclone Catherine,WA
+2016,Storm,19267512,Western Sydney Severe Storm,NSW
+2005,Hailstorm,16431821,Singleton Hailstorm,NSW
+2013,Cyclone,6046674,Cyclone Peta,WA
+1999,Storm,8050488,"Flood, Storm",QLD
+2005,Storm,15564659,Broken Hill Severe Storm,NSW
+2014,Bushfire,13232010,Victorian Bushfires,VIC
+2016,Flooding,13292284,South Australia / South West Victoria Floods,VIC
+2015,Cyclone,5216751,Cyclone Quang,WA
+2017,Storm,10000000,Bundaberg Storms,QLD
+2006,Cyclone,8308323,Cyclone Monica,QLD NT
+2001,Hailstorm,12777148,Armidale Hailstorm,NSW
+2016,Storm,11701073,Geelong Severe Storm Event,VIC
+2007,Tornado,12387416,Tornado Dunoon,NSW
+1997,Bushfire,11021313,Menai Bushfire,NSW
+2004,Storm,6223027,SEQ Severe Storms,QLD
+2003,Tornado,7593450,Bendigo Tornado Event,VIC
+2016,Storm,12542041,Windstorm,SA TAS VIC
+2017,Storm,7000000,Bundaberg Storms,QLD
+2009,Cyclone,3150520,Cyclone LAURENCE,WA
+2012,Cyclone,3158511,Cyclone Heidi,WA
+2016,Wind,7963241,Victoria,VIC
+2001,Earthquake,6067689,Swan Hill 4.8 Earthquake,VIC
+2017,Storm,10000000,East Coast Low,NSW
+2007,Storm,8423741,Wagga Severe Storms,NSW
+2015,Tornado,8549324,Tornado Cluster Illawarra Region,NSW
+2016,East Coast Low,8574145,East Coast Low,NSW
+2019,Bushfire,13500000,NSW/QLD September 2019 Bushfires,NSW QLD
+2015,Bushfire,5621781,Victorian Bushfires Wk3 December,VIC
+2014,Cyclone,4368763,Cyclone Fletcher,QLD
+2012,Cyclone,3558920,Cyclone Jasmine,QLD
+2014,Cyclone,1751526,Cyclone 09U,WA
+2016,Storm,5339252,Severe Weather New South Wales,NSW
+2016,Flooding,5113461,Western NSW Flooding,NSW
+2016,Storm,4816878,Western and Southern Sydney Severe Weather,NSW
+2019,Earthquake,1500000,Kimberley Coast Earthquake,WA
+2007,Tornado,852059,Tornado Moana,SA
+2016,Flooding,3155948,Northern Victoria Flooding,VIC
+2013,Tornado,2920420,Ballarat Tornado,VIC
+2013,Tornado,2867315,Eastern Victorian Tornado Cluster,VIC
+2011,Tornado,2540274,Bachus Marsh Tornado,VIC
+2006,Tornado,2975462,Tornado La Perouse,NSW
+2016,Earthquake,2014828,Bowen Earthquake,QLD
+2011,Tornado,958201,Karatha Tornado,WA
+2016,Storm,2253506,Central Victorian Severe Weather,VIC
+2011,Tornado,612265,Canning Vale Tornado,WA
+2013,Tornado,1399333,Ararat Tornado,VIC
+2014,Tornado,1202206,Bellbridge Tornado,VIC
+2013,Tornado,1138222,New England Tornado Cluster,NSW
+2011,Tornado,1041978,Red Rock Tornado,NSW
+2016,Bushfire,1040599,NSW Bushfires,NSW
+2019,Bushfire,750000,Bunker Hill Bushfire,VIC
+2019,Tornado,250000,Lake Purrumbete Caravan Park Tornado,VIC
+2011,Tornado,113023,Whitton Tornado,NSW
