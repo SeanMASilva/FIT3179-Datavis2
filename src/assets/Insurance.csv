@@ -152,8 +152,8 @@
 2008,Storm,36747017,Windstorm,VIC
 1993,Flooding,64428501,Flood,VIC
 2009,Storm,59940538,East Coast Low,QLD
-1990,Flooding,59077704,Northern NSw and SW QLD Flooding,NSW
-1990,Flooding,59077704,Northern NSw and SW QLD Flooding,QLD
+1990,Flooding,59077704,Northern NSW and SW QLD Flooding,NSW
+1990,Flooding,59077704,Northern NSW and SW QLD Flooding,QLD
 2018,Hailstorm,63215338,Gympie Region Hailstorm,QLD
 2001,Storm,80667832,Casino Severe Storm Event,NSW
 1991,Storm,72767538,Severe Storms Eden Monaro,NSW
@@ -183,7 +183,7 @@
 1999,Flooding,35795703,Melbourne Flooding,VIC
 2009,Flooding,53851899,NSW Coastal Flooding,NSW
 2007,Flooding,38384903,Gippsland Flooding,VIC
-1987,Bushfire,40425399,Southern NSw Bushfires,NSW
+1987,Bushfire,40425399,Southern NSW Bushfires,NSW
 2005,Storm,47635249,East Coast Low,NSW
 1999,Flooding,13141829,Flood,WA
 1998,Storm,44085251,Sydney Storms,NSW
@@ -191,7 +191,7 @@
 2010,Cyclone,15680639,Cyclone ULUI,WA
 2015,Bushfire,17197514,Esperance Bushfires,WA
 2006,Bushfire,33602225,Victorian Bushfires,VIC
-1996,Storm,38931614,East Coast Low,NSw
+1996,Storm,38931614,East Coast Low,NSW
 2001,Storm,39284641,Dubbo Severe Storm Event,NSW
 2009,Flooding,25308635,Floods,QLD
 1998,Storm,36737709,Sydney Storms,NSW
