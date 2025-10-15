@@ -1,0 +1,31 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 250,
+  "title":{
+    "text":"Total area of Australia burnt each decade",
+    "fontSize":20
+  },
+
+  "layer": [
+    {
+      "data":{
+        "url":"https://raw.githubusercontent.com/SeanMASilva/FIT3179-Datavis2/refs/heads/main/src/assets/Insurance.csv"
+      },
+      "mark": {
+        "type": "bar"
+      },
+      "encoding": {
+        "x": {
+          "field":"State"
+          },
+        "y": {
+          "field":"NormalisedLoss",
+          "type":"quantitative"
+        },
+        "color":{
+          "field":"Type"
+        }
+      }
+    }
+  ]
+}
