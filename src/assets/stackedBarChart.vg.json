@@ -1,9 +1,17 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 250,
+  "width": 300,
+  "height":300,
   "title":{
-    "text":"Total area of Australia burnt each decade",
-    "fontSize":20
+    "text":"Each state's most costly disasters (1983-2021)",
+    "fontSize":20,
+    "font":"Lora",
+    "fontWeight":600,
+    "anchor": "start"
+  },
+  "data":{
+    "values":[{"state":"NSW", "pop":8508082}, {"state":"VIC", "pop":6967466}, {"state":"QLD", "pop":5583672}, {"state":"SA", "pop":1884785}, {"state":"WA", "pop":2986344}, {"state":"TAS", "pop":575046}, {"state":"NT", "pop":261166}, {"state":"ACT", "pop":479311}],
+    "name": "population"
   },
 
   "layer": [
@@ -14,17 +22,55 @@
       "mark": {
         "type": "bar"
       },
+      "transform": [
+        {
+          "filter":"datum.Type !== 'Tornado'  && datum.Type != 'Wind'"
+        },
+        {
+          "lookup": "State",
+          "from":{
+            "data":{"name": "population"},
+            "key": "state",
+            "fields":["pop"]
+          },
+          "as":"statePop"
+        },
+        {
+          "calculate": "datum.NormalisedLoss / datum.statePop",
+          "as":"lossPerPop"
+        },
+        {
+          "calculate": "datum.Name + ' ' + datum.Year",
+          "as": "tooltip"
+        }
+      ],
       "encoding": {
         "x": {
-          "field":"State"
+          "field":"State",
+          "axis": {
+            "labelAngle":0
+          }
           },
         "y": {
-          "field":"NormalisedLoss",
-          "type":"quantitative"
+          "field":"lossPerPop",
+          "type":"quantitative",
+          "title":"Sum of insurance claims ($ per capita)"
         },
         "color":{
-          "field":"Type"
-        }
+          "field":"Type",
+          "scale": {
+            "domain":["Bushfire", "Cyclone", "Earthquake", "Flooding", "Hailstorm", "Storm"],
+            "range":["#bf3030", "#44bb44", "#f58518", "#4c78a8", "#72d7d2", "#eeca3b"]
+          }
+        },
+        "tooltip":[
+          {"field":"tooltip", "title":"Name"},
+          {
+            "field":"NormalisedLoss", 
+            "title":"Insurance claimed", 
+            "format":"$.3s"
+          }
+        ]
       }
     }
   ]

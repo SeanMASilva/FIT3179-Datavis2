@@ -1,19 +1,23 @@
 {
-  "width": 250,
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 400,
+  "height":200,
   "title":{
     "text":"Total area of Australia burnt each decade",
-    "fontSize":20
+    "fontSize":20,
+    "font":"Lora",
+    "fontWeight":600,
+    "anchor": "start"
   },
 
   "layer": [
     {
       "data":{
-        "url":"https://raw.githubusercontent.com/SeanMASilva/FIT3179-Datavis2/refs/heads/main/src/assets/bushfireChoropleth.csv",
-        "type":"csv"
+        "url":"https://raw.githubusercontent.com/SeanMASilva/FIT3179-Datavis2/refs/heads/main/src/assets/bushfireChoropleth.csv"
       },
       "mark": {
         "type": "area",
-        "color":"maroon",
+        "color":"#bf1010",
         "tooltip":true
       },
       "transform": [
@@ -32,15 +36,20 @@
       }
     },
     {
-      "data":{"values":[{"x":"1960", "y":50000000, "text":"The destruction of bushfires; has greatly increased; since 1960"}]},
+      "data":{"values":[{"x":"1960", "y":49000000, "text":"The destruction of bushfires; has greatly increased; since 1960"}]},
       "transform": [
         {"calculate": "split(datum.text, ';')", "as":"text_wrap"}
       ],
       "mark":{
-        "type": "text" 
+        "type": "text",
+        "fontSize":12
       },
       "encoding": {
-        "x":{"field":"x", "type": "ordinal"},
+        "x":{"field":"x", "type": "ordinal", "axis": {
+          "labelAngle": 0,
+          "labelAlign":"center",
+          "labelBaseline":"line-top"
+        }},
         "y":{"field":"y", "type": "quantitative"},
         "text":{"field":"text_wrap"}
       }
