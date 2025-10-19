@@ -15,15 +15,21 @@ const baseObj = {
 }
 const data = fs.readFileSync("./src/assets/bushfiresraw.csv", "utf-8").split("\n").map(s => s.split(","))
 const filteredData = data.slice(1).filter(
-  row => row[6] !== "Prescribed Burn" && row[9] > 4 && baseObj[row[11]]
+  row => row[6] === "Bushfire" && row[9] > 14 && baseObj[row[11]]
 )
+const fireIds = {}
 const mergeRow = (row, obj) => {
   const decade_ = ((row[3].split("/")[0] / 10) | 0) * 10
   const decade = decade_ === 2020 ? 2010 : decade_
   if (!obj) {console.log(row)}
+  const prevRow = fireIds[row[0] - 1] || {}
+  const duplicateData = prevRow[9] == row[9] && prevRow[10] == row[10]
+  const [newCount, deltaArea] =  (duplicateData) ? [0, 0] :[1, +row[9]]
+  if (!fireIds[row[0]]) fireIds[row[0]] = row
+  
   return ({
-    count: {...obj.count, [decade]:(obj.count[decade] || 0) + 1},
-    area_ha: {...obj.area_ha, [decade]: (obj.area_ha[decade] || 0) + +row[9]},
+    count: {...obj.count, [decade]:(obj.count[decade] || 0) + newCount},
+    area_ha: {...obj.area_ha, [decade]: (obj.area_ha[decade] || 0) + deltaArea},
     total_ha: obj.total_ha
   })
 }

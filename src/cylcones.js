@@ -1,4 +1,5 @@
 import vgspecBase from "./assets/homework9.vg.json"
+import vgspecTop from "./assets/topmapLayers.vg.json"
 
 const cyclone = (file) => {
   return ({
@@ -15,12 +16,11 @@ const cyclone = (file) => {
               "scale": {
                 "domain":[1010, 900]
               },
-              legend:{"title": "Eye pressure (kpa)"},
+              legend:null,
             },
           }
         },
         {
-          "height": 100,
           "transform": [
             {"sort":[{"field": "datetime", "order":"descending"}], "window": [{"op":"rank", "as": "ranking"}]},
             {"filter": "datum.ranking == 1"},
@@ -44,8 +44,8 @@ const cyclone = (file) => {
         
         "tooltip": [
           {"field":"name", title:"Cylcone Name"},
-          {field: "year", title:"Year"},
-          {field:"pressure", title:"Eye pressure (kpa)"}
+          {field:"pressure", title:"Eye pressure (kpa)"},
+          {field:"datetime", title: "Date", type:"temporal"}
         ]
       }
     })
@@ -53,15 +53,17 @@ const cyclone = (file) => {
 
 const hurricaneCsvs = "1971-ALTHEA.csv,1971-EMILY.csv,1974-TRACY.csv,1975-JOAN.csv,1977-ALBY.csv,1985-WINIFRED.csv,1988-ORSON.csv,1994-BOBBY.csv,1996-JUSTIN.csv,2004-INGRID.csv,2005-LARRY.csv,2005-MONICA.csv,2006-GEORGE.csv,2010-YASI.csv,2014-MARCIA.csv".split(',')
 
-const baseMap = vgspecBase.hconcat[0]
+
+const baseMap = vgspecBase
 const newMap = {
   ...baseMap,
   layer:[
     ...baseMap.layer,
-    ...hurricaneCsvs.map(cyclone)
+    ...hurricaneCsvs.map(cyclone),
+    ...vgspecTop.layer
   ]
 }
-const specWithHurricanes = {...vgspecBase, hconcat:[newMap, ...vgspecBase.hconcat.slice(1)]}
+const specWithHurricanes = newMap
 // const specWithHurricanes = vgspecBase
 const vgspec = specWithHurricanes
 
